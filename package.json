@@ -1,0 +1,26 @@
+{
+  "name": "next-guc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc --outDir dist --pretty --removeComments"
+  },
+  "bin": {
+    "next-guc": "./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.5",
+    "@types/node": "^22.10.2",
+    "@types/shelljs": "^0.8.15",
+    "typescript": "^5.7.2"
+  }
+}
